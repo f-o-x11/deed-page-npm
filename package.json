@@ -1,0 +1,17 @@
+{
+  "name": "deed-page",
+  "version": "0.1.0",
+  "description": "Official deed.page CLI and client: publish a file or folder to a permanent https://{slug}.deed.page/ URL. No account needed.",
+  "keywords": ["deed.page", "static-hosting", "publish", "deploy", "cli", "ai-agents", "hosting", "static-site"],
+  "homepage": "https://deed.page",
+  "bugs": { "url": "https://github.com/f-o-x11/deed-page-npm/issues", "email": "ops@avatar33.com" },
+  "repository": { "type": "git", "url": "git+https://github.com/f-o-x11/deed-page-npm.git" },
+  "license": "MIT",
+  "author": "Avatar 8 LLC <ops@avatar33.com> (https://deed.page)",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": { "deed-page": "bin/deed-page.js" },
+  "files": ["bin/", "lib/", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node test/offline.test.js" }
+}
